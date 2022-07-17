@@ -1,0 +1,81 @@
+{
+    "entityNumberCounter": 7,
+    "entities": [
+        {
+            "hierarchyOrder": 2.0,
+            "name": "Floor Base",
+            "uniqueNumber": 3,
+            "parent": -1,
+            "exposed": true,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":8.0,\"y\":0.0,\"z\":8.0},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"014c1831-f31a-4fee-8df6-7fd5997b5a2b\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 3.0,
+            "name": "Plain Glass Wall2",
+            "uniqueNumber": 4,
+            "parent": -1,
+            "exposed": true,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":16.0,\"y\":0.0,\"z\":0.3332333564758301},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":8.0,\"y\":1.5,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 1.0,
+            "name": "Plain Glass Wall1",
+            "uniqueNumber": 5,
+            "parent": -1,
+            "exposed": true,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":16.0,\"y\":0.0,\"z\":16.0},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":8.0,\"y\":1.5,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 0.0,
+            "name": "Black Gallery Info",
+            "uniqueNumber": 6,
+            "parent": -1,
+            "exposed": true,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":15.0},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":-0.7071068286895752},\"scale\":{\"x\":8.0,\"y\":1.5,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"731b632b-fc46-4a7c-9f87-8a26f52064a7\"}"
+                },
+                {
+                    "name": "material",
+                    "specifics": "{\"albedoColor\":{\"r\":0.07810049504041672,\"g\":0.23121865093708039,\"b\":0.08626679331064224,\"a\":1.0},\"emissiveColor\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":1.0}}"
+                }
+            ]
+        }
+    ]
+}

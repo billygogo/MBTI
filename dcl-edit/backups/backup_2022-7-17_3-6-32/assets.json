@@ -1,0 +1,39 @@
+{
+    "gltfAssets": [
+        {
+            "name": "Plain Glass Wall",
+            "id": "87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d",
+            "gltfPath": "models/PlainGlassWall.glb"
+        },
+        {
+            "name": "Spotlight Strip Off",
+            "id": "bb98ee12-3cef-4c13-ada6-bfc5419671a1",
+            "gltfPath": "models/a3401af9-8e2b-4b2b-915e-ccb8ed611c88/models/SpotlightStrip_Off.glb"
+        },
+        {
+            "name": "Spotlight Strip On",
+            "id": "3d9e00c9-6591-4d88-bb44-d0001bcdb40a",
+            "gltfPath": "models/a3401af9-8e2b-4b2b-915e-ccb8ed611c88/models/SpotlightStrip_On.glb"
+        },
+        {
+            "name": "Futuristic Light Off",
+            "id": "4f09d736-6c5a-48c4-a5cb-2258be606dbc",
+            "gltfPath": "models/b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/models/FuturisticLight_Off.glb"
+        },
+        {
+            "name": "Futuristic Light On",
+            "id": "9b87312f-dec5-4b94-99f4-bbacd8e85a04",
+            "gltfPath": "models/b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/models/FuturisticLight_On.glb"
+        },
+        {
+            "name": "Black Gallery Info",
+            "id": "731b632b-fc46-4a7c-9f87-8a26f52064a7",
+            "gltfPath": "models/c1e126e7-374e-4fe3-aaae-b4211c321cf3/models/BlackGalleryInfo.glb"
+        },
+        {
+            "name": "Floor Base Concrete 01",
+            "id": "014c1831-f31a-4fee-8df6-7fd5997b5a2b",
+            "gltfPath": "models/FloorBaseConcrete_01/FloorBaseConcrete_01.glb"
+        }
+    ]
+}
