@@ -12,6 +12,13 @@ const userData = executeTask(async () => {
 
 let user_anwser : anwser[]=[]
 
+/*
+  function saveData(questionId: string, criteriaId:string, anwserId:string, textid:string)
+  questionId:
+  criteriaId:
+  anwserId:
+  textid: next question textid in dialogData.ts
+*/
 export function saveData(questionId: string, criteriaId:string, anwserId:string, textid:string){
   
    if (userData.result?true:false){
@@ -24,7 +31,7 @@ export function saveData(questionId: string, criteriaId:string, anwserId:string,
    }    
  } 
 
- // MBTI resut 
+ // MBTI result
 export function showResult(){
     let _first: string =''
     let _second: string =''
