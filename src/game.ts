@@ -1,7 +1,7 @@
 import { NPC, NPCDelay } from "@dcl/npc-scene-utils"
 import { AliceDialog } from "./modules/dialogData"
 import resources from "./resources"
-import { scene } from "./scene"
+
 
 //
 
