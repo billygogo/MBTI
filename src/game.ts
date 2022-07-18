@@ -2,11 +2,6 @@ import { NPC, NPCDelay } from "@dcl/npc-scene-utils"
 import { AliceDialog } from "./modules/dialogData"
 import resources from "./resources"
 
-
-//
-
-
-
 export const alice = new NPC(
     {
         position: new Vector3(8, 1.6, 5),
