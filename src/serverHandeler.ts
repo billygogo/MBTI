@@ -1,7 +1,7 @@
 import { mbti_userInfo } from './types'
 
-export const fireBaseServer = 'http://localhost:5001/bluedragontree/us-central1/app/' // dev-mode
-//export const fireBaseServer = 'https://us-central1-bluedragontree.cloudfunctions.net/app/'
+//export const fireBaseServer = 'http://localhost:5001/bluedragontree/us-central1/app/' // dev-mode
+export const fireBaseServer = 'https://us-central1-bluedragontree.cloudfunctions.net/app/'
 
 export async function saveMBTI(mbti_userInfo: mbti_userInfo) {
   if (mbti_userInfo.user_name !== null && mbti_userInfo.mbti_result !== null) {
