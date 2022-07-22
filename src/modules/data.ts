@@ -1,7 +1,8 @@
 import { alice } from 'src/game'
-import { anwser } from 'src/types'
+import { anwser, mbti_userInfo } from 'src/types'
 import { AliceDialog, ResultDialog } from './dialogData'
 import { getUserData } from '@decentraland/Identity'
+import { saveMBTI } from 'src/serverHandeler'
 
 // get player data
 const userData = executeTask(async () => {
@@ -77,6 +78,13 @@ export function showResult() {
     _result = _first + _second + _third + _fourth
 
     log('result=====>', _result)
+
+    const mbti_userinfo: mbti_userInfo = {
+      test_id: 't2',
+      user_name: userData.result?.toString(),
+      mbti_result: _result
+    }
+    saveMBTI(mbti_userinfo).catch((error) => log(error))
 
     alice.dialog.openDialogWindow(ResultDialog, _result)
   }
