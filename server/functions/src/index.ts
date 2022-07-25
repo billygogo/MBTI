@@ -46,13 +46,12 @@ app.get('/get-mbti', async (req: any, res: any) => {
 
 app.post('/add-mbti', async (req: any, res: any) => {
   let newMbti = req.body
-  console.log('server body===>', newMbti)
-  console.log('server body.mbti_result===>', newMbti.mbti_result)
+ // console.log('server body===>', newMbti)
+ // console.log('server body.mbti_result===>', newMbti.mbti_result)
 
   try {
     await mbti
-      //.doc('/' + Math.floor(Math.random() * 100000) + '/')
-      .doc('/' + newMbti.user_name + '/')
+      .doc('/' + Math.floor(Math.random() * 100000) + '/')
       .create({
         user_name: newMbti.user_name,
         test_id: newMbti.test_id,
