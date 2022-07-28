@@ -1,20 +1,20 @@
 {
   "display": {
-    "title": "DCL Scene",
-    "description": "My new Decentraland project",
+    "title": "BlueDragonTree",
+    "description": "This is BlueDragonTree project",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
   "owner": "",
   "contact": {
-    "name": "author-name",
-    "email": ""
+    "name": "Billygogo",
+    "email": "peunjung@gmail.com"
   },
   "main": "bin/game.js",
-  "tags": [],
+  "tags": ["bluedragontree"],
   "scene": {
-    "parcels": ["0,0"],
-    "base": "0,0"
+    "parcels": ["120,-20"],
+    "base": "120,-20"
   },
   "spawnPoints": [
     {

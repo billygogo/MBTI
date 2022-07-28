@@ -49,3 +49,10 @@ aliceRings.addComponent(
   })
 )
 aliceRings.setParent(alice)
+
+// BGM
+const streamSource = new Entity()
+streamSource.addComponent(new AudioStream('https://bluedragontree.web.app/sounds/Sand_Castles.mp3'))
+engine.addEntity(streamSource)
+
+streamSource.getComponent(AudioStream).playing = true
