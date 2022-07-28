@@ -28,7 +28,7 @@ export const AliceDialog: Dialog[] = [
   {
     //3
     name: 'q1',
-    text: 'Q1.당신은 모임에서<br>A: 대화를 먼저 시작하는 편?    <br>B: 상대방이 말을 거는 걸 기다리는 편?    ',
+    text: 'Q1.당신은 모임에서<br>A: 대화를 먼저 시작하는 편이다.    <br>B: 상대방이 말을 거는 걸 기다리는 편이다.   ',
     isQuestion: true,
     //right image
     image: {
@@ -55,15 +55,6 @@ export const AliceDialog: Dialog[] = [
         }
       }
     ]
-    /*
-        image: {
-            path: 'images/cocktail.png',
-            height: 128,
-            width: 128,
-            offsetX: -40,
-            section: { sourceHeight: 256, sourceWidth: 256 },
-        },
-        */
   },
 
   {
@@ -127,7 +118,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q4',
-    text: 'Q4.당신은 약속 시간을 정할 때<br>A:바로 빨리 확정하는 편    <br>B:머뭇거리며 확정하는 편',
+    text: 'Q4.당신은 약속 시간을 정할 때 <br>A:빨리 확정하고 변수가 생기면 조정하는 편<br>B:다른 변수를 고려하려 마지막까지 신중하게 확정하는 편',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/4.png',
@@ -156,7 +147,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q5',
-    text: 'Q5.당신이 되고 싶은 사람은  <br>A:누구나 나를 쉽게 다가갈 수 있는 친근한 사람<br>B:상대방이 나를 어느 정도 조심스럽게 접근하는 사람',
+    text: 'Q5.당신이 되고 싶은 사람은  <br>A:누구나 쉽게 다가갈 수 있는 친근한 사람<br>B:상대방이 어느 정도 조심스럽게 접근하는 사람',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/5.png',
@@ -185,7 +176,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q6',
-    text: 'Q6.당신은 보다  <br>A:개별적인 사안에 관심을 갖는 편이다.<br>B:전체적인 사안에 관심을 갖는 편이다.',
+    text: 'Q6.당신은 보다  <br>A:개별적인 사안에 먼저 관심을 갖는 편이다.<br>B:전체적인 사안에 먼저 관심을 갖는 편이다.',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/6.png',
