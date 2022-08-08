@@ -3,11 +3,8 @@ export default {
     alice: new AudioClip('sounds/alice.mp3')
   },
   models: {
-    standard: {
-      baseScene: new GLTFShape('models/standard/baseScene.glb')
-    },
     robots: {
-      alice: 'models/robots/alice.glb',
+      alice: 'models2/robots/alice.glb',
       rings: new GLTFShape('models/robots/rings.glb')
     }
   },

@@ -1,5 +1,6 @@
 import { NPC, NPCDelay } from '@dcl/npc-scene-utils'
-import { AliceDialog } from './modules/dialogData'
+//import { AliceDialog } from './modules/dialogData'
+import { AliceDialog } from 'src/data'
 import resources from './resources'
 
 import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
