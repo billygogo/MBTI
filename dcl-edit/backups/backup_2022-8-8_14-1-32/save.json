@@ -1,0 +1,77 @@
+{
+    "entityNumberCounter": 38,
+    "entities": [
+        {
+            "hierarchyOrder": 1.0,
+            "name": "Grass",
+            "uniqueNumber": 34,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":8.0,\"y\":0.0,\"z\":8.0},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"ea8c0126-6c19-43b8-8788-62eb4655040e\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 3.0,
+            "name": "Pond 01",
+            "uniqueNumber": 35,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":8.27299976348877,\"y\":0.0,\"z\":8.380000114440918},\"rot\":{\"x\":0.0,\"y\":0.31895941495895388,\"z\":0.0,\"w\":-0.9477683901786804},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"64643e2e-4669-48c2-84d8-39eb422df071\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 2.0,
+            "name": "Palm Tree 01",
+            "uniqueNumber": 36,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":11.843999862670899,\"y\":0.0,\"z\":12.696999549865723},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.2410000562667847,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"82ae2916-51fb-4661-8689-00c822058d0c\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 0.0,
+            "name": "Palm Tree 01",
+            "uniqueNumber": 37,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":7.603000164031982,\"y\":0.0,\"z\":11.967000007629395},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":0.6299999952316284,\"y\":1.0,\"z\":0.7200000286102295}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"82ae2916-51fb-4661-8689-00c822058d0c\"}"
+                }
+            ]
+        }
+    ]
+}

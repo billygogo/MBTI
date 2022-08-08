@@ -1,8 +1,6 @@
 export default {
   sounds: {
-    alice: new AudioClip('sounds/alice.mp3'),
-    bob: new AudioClip('sounds/bob.mp3'),
-    charlie: new AudioClip('sounds/charlie.mp3')
+    alice: new AudioClip('sounds/alice.mp3')
   },
   models: {
     standard: {
@@ -10,8 +8,6 @@ export default {
     },
     robots: {
       alice: 'models/robots/alice.glb',
-      bob: 'models/robots/bob.glb',
-      charlie: 'models/robots/charlie.glb',
       rings: new GLTFShape('models/robots/rings.glb')
     }
   },

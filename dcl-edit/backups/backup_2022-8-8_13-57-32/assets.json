@@ -1,0 +1,179 @@
+{
+    "gltfAssets": [
+        {
+            "name": "Plain Glass Wall",
+            "id": "87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d",
+            "gltfPath": "models/PlainGlassWall.glb"
+        },
+        {
+            "name": "Spotlight Strip Off",
+            "id": "bb98ee12-3cef-4c13-ada6-bfc5419671a1",
+            "gltfPath": "models/a3401af9-8e2b-4b2b-915e-ccb8ed611c88/models/SpotlightStrip_Off.glb"
+        },
+        {
+            "name": "Spotlight Strip On",
+            "id": "3d9e00c9-6591-4d88-bb44-d0001bcdb40a",
+            "gltfPath": "models/a3401af9-8e2b-4b2b-915e-ccb8ed611c88/models/SpotlightStrip_On.glb"
+        },
+        {
+            "name": "Futuristic Light Off",
+            "id": "4f09d736-6c5a-48c4-a5cb-2258be606dbc",
+            "gltfPath": "models/b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/models/FuturisticLight_Off.glb"
+        },
+        {
+            "name": "Futuristic Light On",
+            "id": "9b87312f-dec5-4b94-99f4-bbacd8e85a04",
+            "gltfPath": "models/b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/models/FuturisticLight_On.glb"
+        },
+        {
+            "name": "Black Gallery Info",
+            "id": "731b632b-fc46-4a7c-9f87-8a26f52064a7",
+            "gltfPath": "models/c1e126e7-374e-4fe3-aaae-b4211c321cf3/models/BlackGalleryInfo.glb"
+        },
+        {
+            "name": "Floor Base Concrete 01",
+            "id": "014c1831-f31a-4fee-8df6-7fd5997b5a2b",
+            "gltfPath": "models/FloorBaseConcrete_01/FloorBaseConcrete_01.glb"
+        },
+        {
+            "name": "Black Gallery Info",
+            "id": "40e77166-3569-4d00-85ff-c1ad88c12fde",
+            "gltfPath": "c1e126e7-374e-4fe3-aaae-b4211c321cf3/models/BlackGalleryInfo.glb"
+        },
+        {
+            "name": "alice",
+            "id": "2d14b62a-d088-428b-9ce3-149d3142408b",
+            "gltfPath": "models/robots/alice.glb"
+        },
+        {
+            "name": "bela",
+            "id": "4bde6664-8b19-438f-b5bc-80e0be5fce68",
+            "gltfPath": "models/robots/bela.glb"
+        },
+        {
+            "name": "betty",
+            "id": "6f363b43-1982-4f7c-8862-a03998580f04",
+            "gltfPath": "models/robots/betty.glb"
+        },
+        {
+            "name": "bob",
+            "id": "79dd7c41-92b8-4feb-aeec-af357f956a41",
+            "gltfPath": "models/robots/bob.glb"
+        },
+        {
+            "name": "charlie",
+            "id": "909cae43-667c-4ec5-b85c-eddb3b9162e3",
+            "gltfPath": "models/robots/charlie.glb"
+        },
+        {
+            "name": "marsha",
+            "id": "60c6f1aa-4f6f-4156-8a81-1b34020aac21",
+            "gltfPath": "models/robots/marsha.glb"
+        },
+        {
+            "name": "rings",
+            "id": "2532bd51-2b6b-4de9-872d-03098c712381",
+            "gltfPath": "models/robots/rings.glb"
+        },
+        {
+            "name": "ron",
+            "id": "88b3d315-02ca-49cb-bfde-32a711becfa1",
+            "gltfPath": "models/robots/ron.glb"
+        },
+        {
+            "name": "Armchair A",
+            "id": "32c96582-028e-432b-8004-7b8c15bf73ea",
+            "gltfPath": "models/Armchair_A.glb"
+        },
+        {
+            "name": "Coffee Table",
+            "id": "245227c6-e94d-4e56-a90a-2913c68748e7",
+            "gltfPath": "models/Coffee_Table.glb"
+        },
+        {
+            "name": "Table with Chairs",
+            "id": "77ff3938-e776-4f64-b6f5-4cdc75ce4190",
+            "gltfPath": "models/Table_with_Chairs.glb"
+        },
+        {
+            "name": "White Modern Armchair",
+            "id": "80e3a9a7-e50e-4624-8ea2-2f36fd24e3dc",
+            "gltfPath": "models/WhiteModernArmchair.glb"
+        },
+        {
+            "name": "Bush 01",
+            "id": "b2528f85-a688-4cd9-ba19-9edf57713b01",
+            "gltfPath": "models/Bush_01/Bush_01.glb"
+        },
+        {
+            "name": "Fence Picket White Large 01",
+            "id": "2ce28a38-8e0f-430e-b230-c8bceb8204ab",
+            "gltfPath": "models/FencePicketWhiteLarge_01/FencePicketWhiteLarge_01.glb"
+        },
+        {
+            "name": "Fence Picket White Medium 01",
+            "id": "f5b238c8-b32f-4195-9c6d-4a68af033774",
+            "gltfPath": "models/FencePicketWhiteMedium_01/FencePicketWhiteMedium_01.glb"
+        },
+        {
+            "name": "Floor Hexa 01",
+            "id": "87b034ff-7bfe-4e95-ba37-78e5db9ae429",
+            "gltfPath": "models/FloorHexa_01/FloorHexa_01.glb"
+        },
+        {
+            "name": "Grass 02",
+            "id": "c69a0f20-21fa-4119-9f94-a30d92d255b2",
+            "gltfPath": "models/Grass_02/Grass_02.glb"
+        },
+        {
+            "name": "Plant 06",
+            "id": "e80ba6b0-b17a-4610-90ad-9c3ed990e50c",
+            "gltfPath": "models/Plant_06/Plant_06.glb"
+        },
+        {
+            "name": "Plant 07",
+            "id": "f6beb4f8-67f3-4cf7-ab90-0eb588f463e0",
+            "gltfPath": "models/Plant_07/Plant_07.glb"
+        },
+        {
+            "name": "Table 04",
+            "id": "23e438d2-1d31-412d-9a1b-861515a6dc46",
+            "gltfPath": "models/Table_04/Table_04.glb"
+        },
+        {
+            "name": "Tree Sycamore 01",
+            "id": "a2fae44c-efaf-4efc-b26f-55d13ab19200",
+            "gltfPath": "models/TreeSycamore_01/TreeSycamore_01.glb"
+        },
+        {
+            "name": "Wall Stone Medium",
+            "id": "57957fb4-1c36-4e4c-884c-1ab165f23eb2",
+            "gltfPath": "models/Wall_Stone_Medium/Wall_Stone_Medium.glb"
+        },
+        {
+            "name": "Light Decor7",
+            "id": "6d9a2f0d-6fbc-4b74-9cc9-f7a205713a04",
+            "gltfPath": "models/Light_Decor7.glb"
+        },
+        {
+            "name": "Bar Black",
+            "id": "85c3487c-81ac-4d87-a1cb-60dafce441f3",
+            "gltfPath": "models/Bar_Black.glb"
+        },
+        {
+            "name": "Umbrella 02",
+            "id": "a16323f7-5b17-4861-9ab8-235b926fd882",
+            "gltfPath": "models/Umbrella_02/Umbrella_02.glb"
+        },
+        {
+            "name": "Furnit Bar 4 2M",
+            "id": "60c07ab2-d8e0-4469-918f-606afa51ee24",
+            "gltfPath": "models/Furnit Bar 4 2M.glb"
+        },
+        {
+            "name": "radio",
+            "id": "46abcc04-a2b0-4cac-9f00-f11e10dd6721",
+            "gltfPath": "901e4555-8743-49bb-854c-c8b354a3e3e1/models/radio.glb"
+        }
+    ]
+}

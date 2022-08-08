@@ -25,11 +25,13 @@
     "yarn": "please use npm"
   },
   "dependencies": {
+    "@dcl/ecs-scene-utils": "^1.7.5",
     "@dcl/npc-scene-utils": "^1.4.0",
     "decentraland-builder-scripts": "^0.24.0",
     "eslint": "^8.20.0"
   },
   "bundledDependencies": [
-    "@dcl/npc-scene-utils"
+    "@dcl/npc-scene-utils",
+    "@dcl/ecs-scene-utils"
   ]
 }

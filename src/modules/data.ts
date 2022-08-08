@@ -85,7 +85,7 @@ export function showResult() {
       mbti_result: _result
     }
     saveMBTI(mbti_userinfo).catch((error) => log(error))
-
+    //_result = 'INTJ'
     alice.dialog.openDialogWindow(ResultDialog, _result)
   }
   user_anwser = []
