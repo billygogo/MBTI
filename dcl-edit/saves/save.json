@@ -1,8 +1,8 @@
 {
-    "entityNumberCounter": 8,
+    "entityNumberCounter": 34,
     "entities": [
         {
-            "hierarchyOrder": 2.0,
+            "hierarchyOrder": 19.0,
             "name": "Floor Base",
             "uniqueNumber": 3,
             "parent": -1,
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "hierarchyOrder": 3.0,
+            "hierarchyOrder": 20.0,
             "name": "Plain Glass Wall2",
             "uniqueNumber": 4,
             "parent": -1,
@@ -38,25 +38,7 @@
             ]
         },
         {
-            "hierarchyOrder": 1.0,
-            "name": "Plain Glass Wall1",
-            "uniqueNumber": 5,
-            "parent": -1,
-            "exposed": true,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":16.0,\"y\":0.0,\"z\":16.0},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":8.0,\"y\":1.5,\"z\":1.0}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 0.0,
+            "hierarchyOrder": 18.0,
             "name": "Plain Glass Wall",
             "uniqueNumber": 7,
             "parent": -1,
@@ -65,11 +47,335 @@
             "components": [
                 {
                     "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.751999855041504,\"y\":0.0,\"z\":0.04500000178813934},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":7.800000190734863,\"y\":1.5,\"z\":1.0}}"
+                    "specifics": "{\"pos\":{\"x\":0.12919674813747407,\"y\":8.497620582580567,\"z\":0.04499978572130203},\"rot\":{\"x\":0.5034785270690918,\"y\":0.49649712443351748,\"z\":-0.5034785270690918,\"w\":0.49649718403816225},\"scale\":{\"x\":7.800000190734863,\"y\":2.754997491836548,\"z\":0.2199999988079071}}"
                 },
                 {
                     "name": "GLTFShape",
                     "specifics": "{\"assetID\":\"87e787f9-b794-46a3-bb8f-8a8b1fdcbc7d\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 14.0,
+            "name": "White Modern Armchair",
+            "uniqueNumber": 10,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":4.451510906219482,\"y\":0.05299999937415123,\"z\":2.2702791690826418},\"rot\":{\"x\":0.0,\"y\":-0.02606288716197014,\"z\":0.0,\"w\":-0.9996603727340698},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"80e3a9a7-e50e-4624-8ea2-2f36fd24e3dc\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 17.0,
+            "name": "Table with Chairs",
+            "uniqueNumber": 14,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":10.61299991607666,\"y\":0.0,\"z\":9.435320854187012},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"77ff3938-e776-4f64-b6f5-4cdc75ce4190\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 16.0,
+            "name": "Table with Chairs",
+            "uniqueNumber": 15,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":5.739842891693115,\"y\":0.0,\"z\":11.212891578674317},\"rot\":{\"x\":0.0,\"y\":0.1322564035654068,\"z\":0.0,\"w\":-0.9912155270576477},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"77ff3938-e776-4f64-b6f5-4cdc75ce4190\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 15.0,
+            "name": "Table 04",
+            "uniqueNumber": 16,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":5.302523612976074,\"y\":0.0,\"z\":3.4360151290893556},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"23e438d2-1d31-412d-9a1b-861515a6dc46\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 12.0,
+            "name": "White Modern Armchair",
+            "uniqueNumber": 17,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":7.2383341789245609,\"y\":0.0,\"z\":3.1273059844970705},\"rot\":{\"x\":0.0,\"y\":0.37738528847694399,\"z\":0.0,\"w\":-0.9260563850402832},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"80e3a9a7-e50e-4624-8ea2-2f36fd24e3dc\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 9.0,
+            "name": "Tree Sycamore 01",
+            "uniqueNumber": 18,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":11.765000343322754,\"y\":0.0,\"z\":3.3259999752044679},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"a2fae44c-efaf-4efc-b26f-55d13ab19200\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 13.0,
+            "name": "Bush 01",
+            "uniqueNumber": 19,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":12.520999908447266,\"y\":0.0,\"z\":3.7400007247924806},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"b2528f85-a688-4cd9-ba19-9edf57713b01\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 6.0,
+            "name": "Grass 02",
+            "uniqueNumber": 20,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":10.996999740600586,\"y\":0.0,\"z\":3.615000009536743},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"c69a0f20-21fa-4119-9f94-a30d92d255b2\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 10.0,
+            "name": "Plant 06",
+            "uniqueNumber": 21,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":10.418999671936036,\"y\":0.6610000133514404,\"z\":4.478000164031982},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"e80ba6b0-b17a-4610-90ad-9c3ed990e50c\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 11.0,
+            "name": "Fence Picket White Large 01",
+            "uniqueNumber": 22,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.315999984741211,\"y\":0.0,\"z\":15.86400032043457},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"2ce28a38-8e0f-430e-b230-c8bceb8204ab\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 8.0,
+            "name": "Fence Picket White Large 01",
+            "uniqueNumber": 23,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.39799976348877,\"y\":0.0,\"z\":10.85099983215332},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"2ce28a38-8e0f-430e-b230-c8bceb8204ab\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 7.0,
+            "name": "Fence Picket White Large 01",
+            "uniqueNumber": 24,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.35099983215332,\"y\":0.0,\"z\":5.635000228881836},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"2ce28a38-8e0f-430e-b230-c8bceb8204ab\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 5.0,
+            "name": "Grass 02",
+            "uniqueNumber": 25,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.598999977111817,\"y\":0.0,\"z\":11.385000228881836},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.652999997138977,\"y\":7.23199987411499,\"z\":3.378000020980835}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"c69a0f20-21fa-4119-9f94-a30d92d255b2\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 2.0,
+            "name": "Plant 07",
+            "uniqueNumber": 26,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.656999588012696,\"y\":0.0,\"z\":12.255000114440918},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.6100000143051148,\"y\":2.25600004196167,\"z\":1.5709999799728394}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"f6beb4f8-67f3-4cf7-ab90-0eb588f463e0\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 4.0,
+            "name": "Grass 02",
+            "uniqueNumber": 27,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.656999588012696,\"y\":0.0,\"z\":5.879000186920166},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.4340260028839112,\"y\":5.270999908447266,\"z\":1.4579999446868897}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"c69a0f20-21fa-4119-9f94-a30d92d255b2\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 3.0,
+            "name": "Plant 07",
+            "uniqueNumber": 28,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":15.732999801635743,\"y\":0.0,\"z\":6.548999786376953},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":2.760999917984009,\"z\":2.809000015258789}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"f6beb4f8-67f3-4cf7-ab90-0eb588f463e0\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 0.0,
+            "name": "Bar Black",
+            "uniqueNumber": 29,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":3.256779432296753,\"y\":0.0,\"z\":14.517343521118164},\"rot\":{\"x\":0.0,\"y\":0.9999905228614807,\"z\":0.0,\"w\":-0.00436332868412137},\"scale\":{\"x\":1.6094114780426026,\"y\":1.406000018119812,\"z\":0.8209999799728394}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"85c3487c-81ac-4d87-a1cb-60dafce441f3\"}"
+                }
+            ]
+        },
+        {
+            "hierarchyOrder": 1.0,
+            "name": "Umbrella 02",
+            "uniqueNumber": 31,
+            "parent": -1,
+            "exposed": false,
+            "collapsedChildren": false,
+            "components": [
+                {
+                    "name": "transform",
+                    "specifics": "{\"pos\":{\"x\":5.744919776916504,\"y\":0.587010383605957,\"z\":11.331672668457032},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                },
+                {
+                    "name": "GLTFShape",
+                    "specifics": "{\"assetID\":\"a16323f7-5b17-4861-9ab8-235b926fd882\"}"
                 }
             ]
         }

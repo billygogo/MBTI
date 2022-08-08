@@ -1,6 +1,7 @@
 import { NPC, NPCDelay } from '@dcl/npc-scene-utils'
 import { AliceDialog } from './modules/dialogData'
 import resources from './resources'
+
 export const alice = new NPC(
   {
     position: new Vector3(8, 1.6, 5),
@@ -51,8 +52,24 @@ aliceRings.addComponent(
 aliceRings.setParent(alice)
 
 // BGM
+/*
 const streamSource = new Entity()
 streamSource.addComponent(new AudioStream('https://bluedragontree.web.app/sounds/Sand_Castles.mp3'))
 engine.addEntity(streamSource)
-
 streamSource.getComponent(AudioStream).playing = true
+*/
+const streamSource = new Entity()
+// Create AudioClip object, holding audio file
+
+const clip = new AudioClip('sounds/Sand_Castles.mp3')
+
+// Create AudioSource component, referencing `clip`
+const source = new AudioSource(clip)
+
+// Add AudioSource component to entity
+streamSource.addComponent(source)
+
+// Play sound
+source.loop = true
+source.playing = true
+engine.addEntity(streamSource)

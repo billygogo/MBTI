@@ -79,6 +79,101 @@
             "name": "ron",
             "id": "88b3d315-02ca-49cb-bfde-32a711becfa1",
             "gltfPath": "models/robots/ron.glb"
+        },
+        {
+            "name": "Armchair A",
+            "id": "32c96582-028e-432b-8004-7b8c15bf73ea",
+            "gltfPath": "models/Armchair_A.glb"
+        },
+        {
+            "name": "Coffee Table",
+            "id": "245227c6-e94d-4e56-a90a-2913c68748e7",
+            "gltfPath": "models/Coffee_Table.glb"
+        },
+        {
+            "name": "Table with Chairs",
+            "id": "77ff3938-e776-4f64-b6f5-4cdc75ce4190",
+            "gltfPath": "models/Table_with_Chairs.glb"
+        },
+        {
+            "name": "White Modern Armchair",
+            "id": "80e3a9a7-e50e-4624-8ea2-2f36fd24e3dc",
+            "gltfPath": "models/WhiteModernArmchair.glb"
+        },
+        {
+            "name": "Bush 01",
+            "id": "b2528f85-a688-4cd9-ba19-9edf57713b01",
+            "gltfPath": "models/Bush_01/Bush_01.glb"
+        },
+        {
+            "name": "Fence Picket White Large 01",
+            "id": "2ce28a38-8e0f-430e-b230-c8bceb8204ab",
+            "gltfPath": "models/FencePicketWhiteLarge_01/FencePicketWhiteLarge_01.glb"
+        },
+        {
+            "name": "Fence Picket White Medium 01",
+            "id": "f5b238c8-b32f-4195-9c6d-4a68af033774",
+            "gltfPath": "models/FencePicketWhiteMedium_01/FencePicketWhiteMedium_01.glb"
+        },
+        {
+            "name": "Floor Hexa 01",
+            "id": "87b034ff-7bfe-4e95-ba37-78e5db9ae429",
+            "gltfPath": "models/FloorHexa_01/FloorHexa_01.glb"
+        },
+        {
+            "name": "Grass 02",
+            "id": "c69a0f20-21fa-4119-9f94-a30d92d255b2",
+            "gltfPath": "models/Grass_02/Grass_02.glb"
+        },
+        {
+            "name": "Plant 06",
+            "id": "e80ba6b0-b17a-4610-90ad-9c3ed990e50c",
+            "gltfPath": "models/Plant_06/Plant_06.glb"
+        },
+        {
+            "name": "Plant 07",
+            "id": "f6beb4f8-67f3-4cf7-ab90-0eb588f463e0",
+            "gltfPath": "models/Plant_07/Plant_07.glb"
+        },
+        {
+            "name": "Table 04",
+            "id": "23e438d2-1d31-412d-9a1b-861515a6dc46",
+            "gltfPath": "models/Table_04/Table_04.glb"
+        },
+        {
+            "name": "Tree Sycamore 01",
+            "id": "a2fae44c-efaf-4efc-b26f-55d13ab19200",
+            "gltfPath": "models/TreeSycamore_01/TreeSycamore_01.glb"
+        },
+        {
+            "name": "Wall Stone Medium",
+            "id": "57957fb4-1c36-4e4c-884c-1ab165f23eb2",
+            "gltfPath": "models/Wall_Stone_Medium/Wall_Stone_Medium.glb"
+        },
+        {
+            "name": "Light Decor7",
+            "id": "6d9a2f0d-6fbc-4b74-9cc9-f7a205713a04",
+            "gltfPath": "models/Light_Decor7.glb"
+        },
+        {
+            "name": "Bar Black",
+            "id": "85c3487c-81ac-4d87-a1cb-60dafce441f3",
+            "gltfPath": "models/Bar_Black.glb"
+        },
+        {
+            "name": "Umbrella 02",
+            "id": "a16323f7-5b17-4861-9ab8-235b926fd882",
+            "gltfPath": "models/Umbrella_02/Umbrella_02.glb"
+        },
+        {
+            "name": "Furnit Bar 4 2M",
+            "id": "60c07ab2-d8e0-4469-918f-606afa51ee24",
+            "gltfPath": "models/Furnit Bar 4 2M.glb"
+        },
+        {
+            "name": "radio",
+            "id": "46abcc04-a2b0-4cac-9f00-f11e10dd6721",
+            "gltfPath": "901e4555-8743-49bb-854c-c8b354a3e3e1/models/radio.glb"
         }
     ]
 }

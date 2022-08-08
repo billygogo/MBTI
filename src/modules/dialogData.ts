@@ -5,12 +5,12 @@ import { saveData, showResult } from './data'
 export const AliceDialog: Dialog[] = [
   {
     //0
-    text: '안녕하세요. 저는 Alice라고해요 반갑습니다. MBTI로 당신의 성향을 알아보세요. ',
+    text: '안녕하세요. 저는 Alice라고해요 <br>질문을 통해 16가지 성향 중 당신의 유형을 알아보세요. ',
     fontSize: 25
   },
   {
     //1
-    text: 'MBIT 성향검사를 진행하시겠습니까?',
+    text: '성향 검사를 진행하시겠습니까?',
     isQuestion: true,
     buttons: [
       { label: '예', goToDialog: 'q1' },
@@ -28,7 +28,7 @@ export const AliceDialog: Dialog[] = [
   {
     //3
     name: 'q1',
-    text: 'Q1.당신은 모임에서<br>A: 대화를 먼저 시작하는 편이다.    <br>B: 상대방이 말을 거는 걸 기다리는 편이다.   ',
+    text: 'Q1.당신은 모임에서<br>A: 대화를 먼저 시작하는 편 <br>B: 상대방이 말을 거는 걸 기다리는 편 ',
     isQuestion: true,
     //right image
     image: {
@@ -89,7 +89,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q3',
-    text: 'Q3.당신은 사람들을 <br>A:공정하게 대하는 것을 선호 <br>B:기분 좋게 대하는 것을 선호',
+    text: 'Q3.당신은 누군가 문제를 일으켰을 때<br>A:합당한 이유가 있어야 마음이 풀린다. <br>B:사과를 하면 마음이 풀린다.',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/3.png',
@@ -118,7 +118,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q4',
-    text: 'Q4.당신은 약속 시간을 정할 때 <br>A:빨리 확정하고 변수가 생기면 조정하는 편<br>B:다른 변수를 고려하려 마지막까지 신중하게 확정하는 편',
+    text: 'Q4.당신은 약속 시간을 정할 때 <br>A:빨리 확정하고 변수가 생기면 조정하는 편<br>B:어떻게 될지 모르니 천천히 확정하는 편',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/4.png',
@@ -176,7 +176,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q6',
-    text: 'Q6.당신은 보다  <br>A:개별적인 사안에 먼저 관심을 갖는 편이다.<br>B:전체적인 사안에 먼저 관심을 갖는 편이다.',
+    text: 'Q6.당신은 어떤 현상을 볼 때  <br>A:세부적인 것부터 관찰하는 편이다.<br>B:전체적으로 먼저 관찰하는 편이다.',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/6.png',
@@ -205,7 +205,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q7',
-    text: 'Q7.당신은 판단을 내릴 때 <br>A:객관적으로 하는 편<br>B:감정적으로 하는 편',
+    text: 'Q7.우연히 예쁜 옷을 발견했을 때  <br>A:사야하는 이유를 먼저 고민하는 편이다.<br>B:느낌이 오면 바로 사는 편이다.',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/7.png',
@@ -217,14 +217,14 @@ export const AliceDialog: Dialog[] = [
     },
     buttons: [
       {
-        label: 'choose B',
+        label: 'B선택',
         goToDialog: 'q8',
         triggeredActions: () => {
           saveData('q7', 'F', 'B', 'q8')
         }
       },
       {
-        label: 'choose A',
+        label: 'A선택',
         goToDialog: 'q8',
         triggeredActions: () => {
           saveData('q7', 'T', 'A', 'q8')
@@ -234,7 +234,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q8',
-    text: 'Q8.당신은 일을  <br>A:마감시간을 정하고 하는 것을 선호 <br>B:아무 때나 하는 것을 선호',
+    text: 'Q8.당신은 일을  <br>A:마감시간을 정하고 하는 것을 선호 <br>B: 집중력있게 일할 수 있는 때 하는 것을 선호',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/8.png',
@@ -263,7 +263,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q9',
-    text: 'Q9.당신은 파티에서   <br>A:낯선 사람을 포함하여 많은 사람들과 교류하는 편?<br>B:아는 몇 사람과 교류하는 편?',
+    text: 'Q9.당신은 파티에서   <br>A:낯선 사람을 포함하여 많은 사람들과 교류하는 편<br>B:아는 몇 사람과 교류하는 편',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/9.png',
@@ -321,7 +321,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q11',
-    text: 'Q11.당신이 선호하는 쪽은  <br>A:쟁점을 철처하게 토론하는 것<br>B:쟁점을 합의에 이르게 하는 것',
+    text: 'Q11.토론시 당신이 선호하는 쪽은  <br>A:쟁점을 철처하게 토론하는 것<br>B:쟁점을 합의에 이르게 하는 것',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/11.png',
@@ -397,7 +397,7 @@ export const AliceDialog: Dialog[] = [
 export const ResultDialog: Dialog[] = [
   {
     name: 'INFP',
-    text: '당신은 INFP로서 언뜻 보기에 조용하고 자신을 내세우지 않는 것처럼 보이지만, 사실은 에너지와 열정이 넘치는 마음을 지닌 성격입니다. 이들은 창의적이고 상상력이 뛰어나며 몽상을 즐기는 성격으로, 머릿속에서 수많은 이야기를 만들어 내곤 합니다. 또한 음악과 예술과 자연에 대한 감수성이 뛰어나며 다른 사람의 감정을 빠르게 알아차리곤 합니다.',
+    text: '공감능력 백배 힐러(INFP)<br>역대급 공감능력의 소유자. 음악, 예술, 자연에 대한 감성뿐 아니라 타인의 감정을 빠르게 캐취하며 공감하는 능력자. 타인 말을 편견없이 듣고, 이해해주며, 공감의 눈빛을 건낼 수 있는 당신은 이미 힐러입니다. 솔직함을 중시하는 당신, 창의적인 영역에서 자신을 드러내길 원합니다. 상상만 하지말고 한걸음씩 현실에 내딪어 보세요.새로운 기회가 열리고 있습니다. ',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -405,7 +405,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'INFJ',
-    text: '당신은 INFJ로서 매우 희귀한 성격임에도 불구하고 세상에 큰 영향력을 발휘하곤 합니다. 이들은 이상주의적이고 원칙주의적인 성격으로, 삶에 순응하는 대신 삶에 맞서 변화를 만들어 내고자 합니다. 이들에게 성공이란 돈이나 지위가 아니라 자아를 실현하고 다른 사람을 도우며 세상에서 선을 실천하는 일입니다.',
+    text: 'My way 이상주의자(INFJ)<br>주어진 삶에 순응하기 보자 자신의 삶을 만들어가는 사람. 돈이나 지위가 목적이 아니라 자아를 실현하고 타인의 도우며 선한 세상을 위한 한 스푼이 되는 사람. 겉모습의 화려함보다 내면의 깊은 성찰과 침잠을 즐기는 성향입니다. 다수의 사람들과 많은 관계를 맺기보다, 몇몇 사람과의 의미있는 관계와 대화에 더 큰 행복을 느낌니다. 자신의 선한 의도가 전달되지 않았을 때 좌절을 할 수도 있습니다. ',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -413,7 +413,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'INTP',
-    text: '당신은 INTP로서 자신의 독특한 관점과 활기 넘치는 지성에 자부심을 느끼며, 우주의 미스터리에 대해 깊이 생각하곤 합니다. 유명한 철학자와 과학자 중 논리술사 성격이 많은 것도 이 때문일 것입니다. 논리술사는 상당히 희귀한 성격이지만 뛰어난 창의성과 독창성으로 많은 사람 사이에서 존재감을 드러내곤 합니다. 이렇게 논리적이면서도 마술사와 같은 창의력을 발휘하는 성격이기에 ‘논리술사’라고 부르게 되었습니다.',
+    text: '호시심 많은 프쉬케(INTP)<br>창의성과 호기심이 뛰어난 당신은 당신앞의 상황이나 순간에 다양한 아이디어와 질문이 넘칩니다. 자신의 아이디어를 들어주는 사람들을 만나면 활발하게 의견을 나누며 지적 유희를 즐기기 좋아합니다. 톡톡 튀어오르는 생각에 자칫 처음 생각과 바뀌어 일관성이 없어보이기도 하지만 더 발전된 생각에 개방적인 자세로 탐구하는 당신이기에 유능함은 곧 빛을 발할것입니다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -421,7 +421,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'INTJ',
-    text: '당신은 INTJ로서 전략가는 이성적이면서도 두뇌 회전이 빠른 성격으로, 자신의 뛰어난 사고 능력을 자랑스러워하며 거짓말과 위선을 꿰뚫어 보는 능력이 있습니다. 하지만 이로 인해 끊임없이 생각하고 주변의 모든 것을 분석하려는 자신의 성향을 이해할 수 있는 사람을 찾는 데 어려움을 겪기도 합니다.',
+    text: '외롭운 심사숙고 (INTJ)<br>상황판단이 빠르고, 직관력도 뛰어나 타인의 진실과 거짓을 간파하는 능력이 있다. 뛰어나 사고능력과 지식탐구력을 바탕으로 남다른 아이디어를 이용해 성공할 수 있다. 독립적인 성향이 강한 당신은 남을 따르기보다는 자신이 주도적으로 상황을 이끌어가길 바란다. 현실에서 타인의 욕구와 계획에 무관심하게 보일 수도 있다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -429,7 +429,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ISFP',
-    text: '당신은 ISFP 진정한 의미의 예술가라고 할 수 있습니다. 하지만 모험가라고 반드시 예술 업계에만 종사하는 것은 아닙니다. 이들에게는 삶 자체가 자신을 표현하기 위한 캔버스이기 때문입니다. 이들은 입는 옷부터 여가 시간을 보내는 방식까지 다양한 측면에서 자신의 독특한 개성을 생생히 드러냅니다.',
+    text: '삶을 캔버스로..진정한 예술가(ISFP)<br>입는 옷, 먹는 음식, 인테리어등.. 라이프 스타일 전반에서 자신의 개성을 표현하는 예술가.유연한 사고와 생활방식을 가졌으며, 엄격한 일정과 계획에 따르는 일보다 자유도가 높은 일을 선호한다. 창의력이 넘치는 자유로운 영혼으로 자신의 리듬에 맞게 살기를 좋아한다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -437,7 +437,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ISFJ',
-    text: '당신은 ISFJ 겸손한 자세로 세상을 지탱하는 역할을 합니다. 이들은 근면하고 헌신적인 성격으로 주변 사람들에 대한 깊은 책임감을 느낍니다. 이들은 마감 기한을 철저히 지키고 동료와 친구의 생일과 기념일을 챙기며, 기존 질서를 유지하고 주변 사람을 배려하는 동시에 기꺼이 도움의 손길을 건넵니다. 또한 감사를 요구하기보다는 뒤에서 묵묵히 헌신하는 성격이라고 할 수 있습니다.',
+    text: '사려깊은 손길 (ISFJ)<br>도움이 필요한 사람에게 겸손하고 사려깊은 자세로 헌신하는 사람. 근면하고 헌신적인 성격으로 주변 사람들에게 깊은 책임감을 느낍니다. 친절과 감사에 더 큰 배려로 보답할 줄 아는 열정과 겸손의 소유자. 다른 사람의 세세한 변화도 감지할 만큼 세심하고 사려깊은 인품이기에 주변 사람들에게 안정감과 행복감을 주는 사람입니다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -445,7 +445,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ISTP',
-    text: '당신은 ISTP 이성과 호기심을 통해 세상을 바라보며 눈과 손으로 직접 탐구하는 일을 즐깁니다. 이들은 타고난 손기술을 지니고 있으며, 다양한 프로젝트에서 유용하고 재미있는 물건을 만들어 내고 주변 환경에서 배울 점을 찾습니다. 장인은 보통 기술자나 엔지니어로 일하는 경우가 많으며 물건을 직접 분해하고 조립해 개선하는 일을 즐깁니다.',
+    text: '뚝딱뚝딱 내 손으로 ( ISTP)<br>호기심이 많고 탐구하기를 좋아하며 뭐든 손으로 만지고 직접 눈으로 확인하며 분석하기를 좋아한다. 문제를 해결하고 시행착오를 거치며 개선하는 것을 즐기는 기술자나 엔지니어의 성향이 있다. 즉흥적이며 호기심이 넘쳐 새로운 관심사를 찾아 나서기도 하지만, 한번 몰입하면 대단한 집중력의 소유자이다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -453,7 +453,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ISTJ',
-    text: '당신은 ISTJ 진실하게 행동하는 자신의 모습에서 자부심을 느끼며, 자기 생각을 솔직하게 이야기하고 어떤 것에 헌신하기로 한 경우 최선을 다합니다.화려한 삶이나 다른 사람의 주의를 끄는 일에는 관심이 없으며, 안정된 사회를 위해 자신의 몫보다 많은 기여를 하곤 합니다. 이들은 가족이나 주변 사람들로부터 믿음직한 사람이라는 평판을 받을 때가 많으며, 현실 감각이 뛰어나 스트레스가 극심한 상황에서도 현실적이고 논리적인 태도를 유지하는 사람으로 인정받곤 합니다.',
+    text: '책임감 강한 해결사 (ISTJ)<br>자신에게 주어진 일을 정해진 시간까지 미루지 않고 책임을 다하는 사람. 진솔한 자신의 모습에 자부심을 느끼며, 꿈꾸는 이상주의자 보다는 현실에서 가능한 해결책을 논리적으로 고민하여 실행하는 해결사. 하지만 강한 책임감으로 인해 다른 사람의 몫까지 책임지려 하다보면 자칫 절망감이 들 수도 있다. 책임의 한계에 대해서 고민하는 지혜가 필요하다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -461,7 +461,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ENFP',
-    text: '당신은 ENFP로서 활동가(ENFP)는 진정으로 자유로운 영혼이라고 할 수 있으며 외향적이고 솔직하며 개방적인 성격입니다. 이들은 활기차고 낙관적인 태도로 삶을 대하며 다른 사람들 사이에서 돋보이곤 합니다. 그러나 신나는 삶을 사는 것처럼 보인다고 해서 즐거움만을 좇는 성격은 아니며, 다른 사람과 감정적으로 깊고 의미 있는 관계를 맺는 일을 추구합니다.',
+    text: '낮에도 꿈을 꾸는 자유로운 영혼(ENFP)<br>활기차고 낙천적이며, 사교적인 성격으로 다른 사람들과의 교류를 즐길 줄 아는 사람. 그저 놀기만 좋아하는 것이 아니라 깊이있는 내면을 간직하고 있어 상상력이 풍부하고 창의적인 성향이다.상상력을 자극하는 활동을 좋아하며, 이러한 열정을 함께 일하는 사람들에게도 전달되어 팀에 에너자이저 역할을 하기도 한다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -469,7 +469,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ENFJ',
-    text: '당신은 ENFJ로서 선도자는 타고난 지도자라고 할 수 있으며 많은 선도자가 정치인, 코치, 교사로 활동하고 있습니다. 이들의 열정과 카리스마는 직업뿐만 아니라 인간관계 등 삶의 다양한 측면에서 다른 사람에게 영향을 주곤 합니다. 또한 이들은 친구와 사랑하는 사람이 발전할 수 있도록 돕는 일에서 즐거움과 깊은 만족감을 느낍니다.',
+    text: '헌신적 지도자(ENFJ)<br>올바른 일을 위해 사명을 갖고 임하려는 지도자. 진실함과 선함을 가지고 좋은 영향력을 주변인들에게 전파한다. 다른 사람의 감정을 빨리 파악하여 세심한 배려와 소통으로 다른 사람들이 더 나은 삶을 살도록 도우려고 한다. 그러나 모든 사람들이 변화에 대해 준비된 것이 아니라서 가끔 성급한 조언이 될 수도 있다. 당신에게는 모범을 보이며 다른 사람들이 당신을 따르도록 하는 능력이 있습니다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -477,7 +477,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ENTP',
-    text: '당신은 ENTP로서 두뇌 회전이 빠르고 대담한 성격으로 현재 상황에 이의를 제기하는 데 거리낌이 없습니다. 변론가는 어떤 의견이나 사람에 반대하는 일을 두려워하지 않으며, 논란이 될 만한 주제에 대해 격렬하게 논쟁하는 일을 즐깁니다.',
+    text: 'Why Not?(ENTP)<br> 빠른 두뇌회전, 대담한 성격으로 논란이 되는 문제에도 직접 뛰어들어 중심에 서서 논쟁하기를 즐긴다. 타인이 당연히 여기는 것에도 왜? 라는 질문을 서슴없이 제기하고 자신의 신념을 객관적 관점에서 바라보기 위해 스스로에 대한 반론도 즐기는 편이다. 논쟁에서 이기는 것에만 집중하면 곤란하고, 유연성을 발휘해 서로다른 관점을 파악하고 조율 할 수 있는 배려가 필요하다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -485,7 +485,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ENTJ',
-    text: '당신은 ENTJ로서 타고난 지도자라고 할 수 있습니다. 이들은 카리스마와 자신감을 지니고 있으며 자신의 권한을 이용해 사람들이 공통된 목표를 위해 함께 노력하도록 이끕니다. 또한 이들은 냉철한 이성을 지닌 것으로 유명하며, 자신이 원하는 것을 성취하기 위해 열정과 결단력과 날카로운 지적 능력을 활용합니다. 이들은 전체 인구의 3%에 불과하지만 다른 많은 성격을 압도하는 존재감을 뽐내며, 많은 비즈니스와 단체를 이끄는 역할을 할 때가 많습니다.',
+    text: '나를 따르라(ENTJ)<br>강력한 의지의 소유자, 주어진 시간과 환경에서 자신의 목표를 달성하기 위해 집중할 줄 아는 사람. 카리스마와 자신감은 리더로서의 자질로 훌륭하지만 자칫 섬세한 감정과 감성을 배려하지 않는 경향도 있다. 뛰어난 전략적 사고능력, 목표에 대한 집중력, 결단력있는 실행으로 팀을 공통에 목표로 이끄는 멋진 리더이다. ',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -493,7 +493,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ESFP',
-    text: '당신은 ESFP 활동가(ENFP)는 진정으로 자유로운 영혼이라고 할 수 있으며 외향적이고 솔직하며 개방적인 성격입니다. 이들은 활기차고 낙관적인 태도로 삶을 대하며 다른 사람들 사이에서 돋보이곤 합니다. 그러나 신나는 삶을 사는 것처럼 보인다고 해서 즐거움만을 좇는 성격은 아니며, 다른 사람과 감정적으로 깊고 의미 있는 관계를 맺는 일을 추구합니다.',
+    text: '현재를 즐겨라(ESFP)<br>지금 이 순간의 흥겨움과 즐거움을 즐길 줄 아는 성격. 다른 사람들의 시선을 사로잡고 관심받기를 즐긴다.매우 사교적인 성격으로 친구들과 재미있는 시간을 보내는 것에 큰 만족감을 느낀다.감각이 뛰어나 옷이나 악세사리등 새로운 패션 스타일을 찾는데도 소질이 있다. ',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -501,7 +501,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ESFJ',
-    text: '당신은 ESFJ  삶에서 위대한 사명을 위해 힘써야 한다는 느낌을 받곤 합니다. 사려 깊고 이상주의적 성향을 지닌 선도자는 다른 사람과 주변 세상에 긍정적인 영향력을 발휘하기 위해 최선을 다하며, 어려운 상황에서도 올바른 일을 할 기회를 마다하지 않습니다.',
+    text: '긍정의 에너지 치어리더(ESFJ)<br>다양한 사람들에게도 선입견 없이 마음을 열며, 용기를 북돋고 사람들을 하나로 모으는 역할. 옳고 그름에 대한 명확히 판단하는 성향이 있어 독선적인 모습이라 보일 때도 있다. 하지만 배려심이 있고, 사교적인 성격이며 장기적이고 지속적인 관계를 구축하는 편이다. 질서과 체계를 중시하여 즉흥만남 보다는 계획된 행사를 선호한다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -509,7 +509,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ESTP',
-    text: '당신은 ESTP 항상 주변 사람에게 영향력을 행사하곤 합니다. 파티에서 가는 곳마다 사람들에게 둘러싸여 있는 사람을 발견한다면 아마 사업가일 것입니다. 이들은 직설적인 유머 감각을 지니고 있으며 수많은 사람의 관심을 받는 일을 즐깁니다. 한 마디로 사회자가 무대로 올라올 사람을 찾을 때 직접 무대로 올라가는 성격이라고 할 수 있습니다.',
+    text: '과감한 프론티어(ESTP)<br>이론적이고 추상적인 토론보다는 직접 발로 뛰며 행동하고 시행착오를 겪는 프론티어.모험과 열정을 사랑하고, 결정을 내릴 때도 이론 보다는 현재의 사실과 상황에 집중한다. 관찰력이 뛰어나 새로운 패션 스타일을 발견하고 과감히 도전하는 트렌드 세터.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -517,7 +517,7 @@ export const ResultDialog: Dialog[] = [
   },
   {
     name: 'ESTJ',
-    text: '당신은 ESTJ 전통과 질서를 중시하는 성격으로, 자신이 생각하는 옳고 그름과 사회적 기준에 따라 가족과 공동체가 화합할 수 있도록 노력합니다. 이들은 정직과 헌신과 존엄성을 중시하며, 어려운 길을 기꺼이 앞장서고 다른 사람들에게 명확한 조언과 지도를 제공합니다. 이들은 사람들이 화합하도록 하는 일에서 자부심을 느끼며, 모든 사람이 지역 축제를 즐길 수 있도록 노력하거나 가족과 공동체의 전통적인 가치관을 지키는 역할 등을 맡곤 합니다.',
+    text: '가치를 지키는 수호자(ESTJ)<br>전통과 질서, 공동체가 일구어갈 가치를 중시하는 성격으로 조금의 부정행위에도 단호박으로 대처하는 성격. 주위의 관찰력이 뛰어나고 , 자신의 지식에 대한 강한 믿음이 있어 강한 반대 저항이라도 원칙에 따라 자신의 비전을 밀어부침. 이웃을 돕고 법을 준수하며, 집단과 조직을 위해 이바지할 길을 찾아 노력합니다.',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
@@ -526,7 +526,7 @@ export const ResultDialog: Dialog[] = [
   {
     //1
     name: 'goodbye',
-    text: '안녕히 가세요. ',
+    text: '감사합니다. 안녕히 가세요. ',
     isEndOfDialog: true,
     triggeredByNext: () => {
       alice.playAnimation('Goodbye', true, 2)
