@@ -244,6 +244,46 @@
             "name": "Sign Post Square",
             "id": "445d74e6-fc27-48f8-a021-167c9cd58f40",
             "gltfPath": "c1da72b5-fbda-4ba5-ad96-a921a3ef0d3b/models/signpost/SignPost_Square.glb"
+        },
+        {
+            "name": "alice",
+            "id": "b0574c9c-c4b0-4ebc-a5ab-648d672b02a3",
+            "gltfPath": "models2/robots/alice.glb"
+        },
+        {
+            "name": "bela",
+            "id": "f140626a-4101-429f-8d0e-8b7eb00404a1",
+            "gltfPath": "models2/robots/bela.glb"
+        },
+        {
+            "name": "betty",
+            "id": "7908126a-4430-452b-b2ba-59ccaeb095d5",
+            "gltfPath": "models2/robots/betty.glb"
+        },
+        {
+            "name": "bob",
+            "id": "2beb423d-23eb-44f6-9b92-0c60dd48a5ad",
+            "gltfPath": "models2/robots/bob.glb"
+        },
+        {
+            "name": "charlie",
+            "id": "2053dda4-21c1-41e9-9e59-be6f455a4524",
+            "gltfPath": "models2/robots/charlie.glb"
+        },
+        {
+            "name": "marsha",
+            "id": "39e57a0f-5c53-4ae5-8154-b3f452a3f7c5",
+            "gltfPath": "models2/robots/marsha.glb"
+        },
+        {
+            "name": "rings",
+            "id": "4660d6ee-4a4c-4859-b011-57191fe6c35a",
+            "gltfPath": "models2/robots/rings.glb"
+        },
+        {
+            "name": "ron",
+            "id": "ef8493c5-a084-49e2-86e6-fa13f34155e7",
+            "gltfPath": "models2/robots/ron.glb"
         }
     ]
 }

@@ -81,7 +81,7 @@ export function showResult() {
     log('result=====>', _result)
 
     const mbti_userinfo: mbti_userInfo = {
-      test_id: 't2',
+      test_id: 't3',
       user_name: userData.result?.toString(),
       mbti_result: _result
     }
