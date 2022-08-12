@@ -1,6 +1,8 @@
 export default {
   sounds: {
-    alice: new AudioClip('sounds/alice.mp3')
+    alice: new AudioClip('sounds/alice.mp3'),
+    bela: new AudioClip('sounds/bela.mp3'),
+    result: new AudioClip('sounds/result.mp3')
   },
   models: {
     robots: {

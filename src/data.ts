@@ -5,6 +5,7 @@ import { getUserData } from '@decentraland/Identity'
 import { saveMBTI } from 'src/serverHandeler'
 
 import { Dialog } from '@dcl/npc-scene-utils'
+import resources from './resources'
 //import { alice } from '../game'
 //import { saveData, showResult } from './data'
 
@@ -88,6 +89,8 @@ export function showResult() {
     saveMBTI(mbti_userinfo).catch((error) => log(error))
     //_result = 'INTJ'
     alice.dialog.openDialogWindow(ResultDialog, _result)
+    alice.addComponentOrReplace(new AudioSource(resources.sounds.result))
+    alice.getComponent(AudioSource).playOnce()
   }
   user_anwser = []
 }
@@ -382,7 +385,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q10',
-    text: 'Q10.당신이 보다 끌리는 쪽은  <br>A:믿을 수 있는 정보<br>B:믿은 만한 가설',
+    text: 'Q10.당신이 보다 끌리는 쪽은  <br>A:믿을 수 있는 정보<br>B:믿을 만한 가설',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/10.png',

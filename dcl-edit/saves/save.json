@@ -1,8 +1,8 @@
 {
-    "entityNumberCounter": 55,
+    "entityNumberCounter": 63,
     "entities": [
         {
-            "hierarchyOrder": 18.0,
+            "hierarchyOrder": 8.0,
             "name": "Grass",
             "uniqueNumber": 34,
             "parent": -1,
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "hierarchyOrder": 20.0,
+            "hierarchyOrder": 10.0,
             "name": "Pond 01",
             "uniqueNumber": 35,
             "parent": -1,
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "hierarchyOrder": 19.0,
+            "hierarchyOrder": 9.0,
             "name": "Palm Tree 01",
             "uniqueNumber": 36,
             "parent": -1,
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "hierarchyOrder": 15.0,
+            "hierarchyOrder": 6.0,
             "name": "Palm Tree 01",
             "uniqueNumber": 37,
             "parent": -1,
@@ -74,25 +74,7 @@
             ]
         },
         {
-            "hierarchyOrder": 16.0,
-            "name": "Ice Cream Truck 01",
-            "uniqueNumber": 38,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":12.847000122070313,\"y\":0.0,\"z\":9.031000137329102},\"rot\":{\"x\":0.0,\"y\":0.7181262969970703,\"z\":0.0,\"w\":0.695912778377533},\"scale\":{\"x\":1.2329527139663697,\"y\":1.0,\"z\":1.0}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"4926efdb-f74e-448a-8a51-baca183b9141\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 17.0,
+            "hierarchyOrder": 7.0,
             "name": "Fence Wood Medium 04",
             "uniqueNumber": 39,
             "parent": -1,
@@ -101,7 +83,7 @@
             "components": [
                 {
                     "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.493000030517579,\"y\":0.0,\"z\":15.642000198364258},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.1100000143051148}}"
+                    "specifics": "{\"pos\":{\"x\":15.493000030517579,\"y\":0.0,\"z\":15.642000198364258},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":5.113576412200928}}"
                 },
                 {
                     "name": "GLTFShape",
@@ -110,7 +92,7 @@
             ]
         },
         {
-            "hierarchyOrder": 13.0,
+            "hierarchyOrder": 4.0,
             "name": "Umbrella 01",
             "uniqueNumber": 40,
             "parent": -1,
@@ -119,7 +101,7 @@
             "components": [
                 {
                     "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":11.64799976348877,\"y\":0.8949999809265137,\"z\":3.2950000762939455},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                    "specifics": "{\"pos\":{\"x\":10.315999984741211,\"y\":0.1770000010728836,\"z\":3.1449999809265138},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.2512248754501343,\"w\":-0.9679287672042847},\"scale\":{\"x\":1.0,\"y\":1.25,\"z\":1.0}}"
                 },
                 {
                     "name": "GLTFShape",
@@ -128,7 +110,7 @@
             ]
         },
         {
-            "hierarchyOrder": 11.0,
+            "hierarchyOrder": 2.0,
             "name": "Chair 06",
             "uniqueNumber": 41,
             "parent": -1,
@@ -146,7 +128,7 @@
             ]
         },
         {
-            "hierarchyOrder": 14.0,
+            "hierarchyOrder": 5.0,
             "name": "Chair 06",
             "uniqueNumber": 42,
             "parent": -1,
@@ -164,7 +146,7 @@
             ]
         },
         {
-            "hierarchyOrder": 12.0,
+            "hierarchyOrder": 3.0,
             "name": "Carpet 02",
             "uniqueNumber": 43,
             "parent": -1,
@@ -182,115 +164,7 @@
             ]
         },
         {
-            "hierarchyOrder": 10.0,
-            "name": "Michi Todd Rabbit Lamp(Small)",
-            "uniqueNumber": 44,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":1.8311824798583985,\"y\":0.0,\"z\":1.8694616556167603},\"rot\":{\"x\":0.0,\"y\":0.8504709601402283,\"z\":0.0,\"w\":-0.5260220766067505},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"99dd0e01-123d-4a8d-bfd2-56d48ab2c196\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 3.0,
-            "name": "Bottle 08",
-            "uniqueNumber": 45,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":6.625999927520752,\"y\":0.0,\"z\":3.6461477279663088},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.2760000228881837,\"y\":1.0,\"z\":1.3079999685287476}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"aec5fc74-6695-4727-9d4e-22a921c519a9\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 9.0,
-            "name": "Bottle 04",
-            "uniqueNumber": 46,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":6.581999778747559,\"y\":0.0,\"z\":2.2731668949127199},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"14a1ee71-5983-485e-83e8-aadb7652d9e9\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 8.0,
-            "name": "Fence Wood Medium 03",
-            "uniqueNumber": 47,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":12.295000076293946,\"y\":0.0,\"z\":15.652999877929688},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.4559999704360963}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 7.0,
-            "name": "Fence Wood Medium 01",
-            "uniqueNumber": 48,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":3.694000005722046,\"y\":0.0,\"z\":15.597999572753907},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.1451116800308228}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 6.0,
-            "name": "Fence Wood Medium 02",
-            "uniqueNumber": 49,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":7.802999973297119,\"y\":0.0,\"z\":15.604999542236329},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.378999948501587}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 5.0,
+            "hierarchyOrder": 1.0,
             "name": "Fence Wood Medium 01",
             "uniqueNumber": 50,
             "parent": -1,
@@ -299,61 +173,7 @@
             "components": [
                 {
                     "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":15.611434936523438},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.3910000324249268}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 1.0,
-            "name": "Fence Wood Medium 01",
-            "uniqueNumber": 51,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":11.399999618530274},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.3860000371932984}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 2.0,
-            "name": "Fence Wood Medium 01",
-            "uniqueNumber": 52,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":7.14900016784668},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.225000023841858}}"
-                },
-                {
-                    "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
-                }
-            ]
-        },
-        {
-            "hierarchyOrder": 4.0,
-            "name": "Fence Wood Medium 01",
-            "uniqueNumber": 53,
-            "parent": -1,
-            "exposed": false,
-            "collapsedChildren": false,
-            "components": [
-                {
-                    "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":3.377000093460083},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":0.9296544790267944}}"
+                    "specifics": "{\"pos\":{\"x\":15.5,\"y\":0.0,\"z\":15.611434936523438},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":5.1196184158325199}}"
                 },
                 {
                     "name": "GLTFShape",
@@ -363,19 +183,19 @@
         },
         {
             "hierarchyOrder": 0.0,
-            "name": "Table 03",
-            "uniqueNumber": 54,
+            "name": "Fence Wood Medium 01",
+            "uniqueNumber": 61,
             "parent": -1,
             "exposed": false,
             "collapsedChildren": false,
             "components": [
                 {
                     "name": "transform",
-                    "specifics": "{\"pos\":{\"x\":11.694999694824219,\"y\":0.0,\"z\":3.309000015258789},\"rot\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0}}"
+                    "specifics": "{\"pos\":{\"x\":15.336000442504883,\"y\":0.0,\"z\":0.14800000190734864},\"rot\":{\"x\":0.0,\"y\":0.7071068286895752,\"z\":0.0,\"w\":0.7071068286895752},\"scale\":{\"x\":1.0,\"y\":1.0,\"z\":4.98746395111084}}"
                 },
                 {
                     "name": "GLTFShape",
-                    "specifics": "{\"assetID\":\"c86b7ee3-6bb8-4ec7-984f-feded2ae5997\"}"
+                    "specifics": "{\"assetID\":\"f4cb72e3-049d-4514-b7b7-18917a97521e\"}"
                 }
             ]
         }

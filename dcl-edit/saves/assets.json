@@ -284,6 +284,31 @@
             "name": "ron",
             "id": "ef8493c5-a084-49e2-86e6-fa13f34155e7",
             "gltfPath": "models2/robots/ron.glb"
+        },
+        {
+            "name": "blue Dragon Tree",
+            "id": "237ebf2d-dad7-4ac9-bf77-51e38b950388",
+            "gltfPath": "models2/BlueDragonTreeLogo/blueDragonTree.glb"
+        },
+        {
+            "name": "Decentraland Logo 01",
+            "id": "db94f52f-6cf7-4b46-8468-506cee366bd4",
+            "gltfPath": "models2/DecentralandLogo_01/DecentralandLogo_01.glb"
+        },
+        {
+            "name": "blue Dragon Tree2",
+            "id": "921eb371-50cf-472b-92c6-3c0dac311d9d",
+            "gltfPath": "models2/BlueDragonTreeLogo/blueDragonTree2.glb"
+        },
+        {
+            "name": "Custom Frame",
+            "id": "f1e6454c-d5bb-4dc3-b444-fdedc93b981a",
+            "gltfPath": "80d9cb1c-2fcf-4585-8e19-e2d5621fd54d/models/CustomFrame.glb"
+        },
+        {
+            "name": "Beam Exterior 1",
+            "id": "18067026-d4b9-49c7-bd43-587390f5ac28",
+            "gltfPath": "models2/Beam Exterior 1.glb"
         }
     ]
 }
