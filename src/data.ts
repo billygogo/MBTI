@@ -79,7 +79,7 @@ export function showResult() {
 
     _result = _first + _second + _third + _fourth
 
-    log('result=====>', _result)
+    //log('result=====>', _result)
 
     const mbti_userinfo: mbti_userInfo = {
       test_id: 't3',
@@ -89,8 +89,8 @@ export function showResult() {
     saveMBTI(mbti_userinfo).catch((error) => log(error))
     //_result = 'INTJ'
     alice.dialog.openDialogWindow(ResultDialog, _result)
-    alice.addComponentOrReplace(new AudioSource(resources.sounds.result))
-    alice.getComponent(AudioSource).playOnce()
+    //alice.addComponentOrReplace(new AudioSource(resources.sounds.result))
+    //alice.getComponent(AudioSource).playOnce()
   }
   user_anwser = []
 }

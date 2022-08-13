@@ -309,6 +309,16 @@
             "name": "Beam Exterior 1",
             "id": "18067026-d4b9-49c7-bd43-587390f5ac28",
             "gltfPath": "models2/Beam Exterior 1.glb"
+        },
+        {
+            "name": "neat",
+            "id": "0e6282f2-f8a9-4a7b-b447-4a7967d495c3",
+            "gltfPath": "cf62e480-69ec-4e72-bcdd-0f46ea004ab3/models/neat.glb"
+        },
+        {
+            "name": "neat",
+            "id": "eaf366fe-a988-4bc8-ad89-e2470af8138a",
+            "gltfPath": "src/neat/models/neat.glb"
         }
     ]
 }
