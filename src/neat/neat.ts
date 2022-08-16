@@ -1,4 +1,4 @@
-import { imageTexture, neatBG, neatCode, inputcode, neatText, neatInput, neatBGt } from './ui'
+import { imageTexture, neatBG, neatCode, inputcode, neatText, neatInput } from './ui'
 import { CHECK_VALID, CLEAR_UI, NeatSystem, TimerSystem } from './system'
 import { getUserData } from '@decentraland/Identity'
 import { getParcel } from '@decentraland/ParcelIdentity'

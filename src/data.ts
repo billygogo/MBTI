@@ -5,7 +5,7 @@ import { getUserData } from '@decentraland/Identity'
 import { saveMBTI } from 'src/serverHandeler'
 
 import { Dialog } from '@dcl/npc-scene-utils'
-import resources from './resources'
+//import resources from './resources'
 //import { alice } from '../game'
 //import { saveData, showResult } from './data'
 

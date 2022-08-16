@@ -5,9 +5,9 @@ import resources from './resources'
 
 import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
 import Script1 from '../c1da72b5-fbda-4ba5-ad96-a921a3ef0d3b/src/item'
-import Script2 from '../80d9cb1c-2fcf-4585-8e19-e2d5621fd54d/src/item'
+//import Script2 from '../80d9cb1c-2fcf-4585-8e19-e2d5621fd54d/src/item'
 import { neat } from 'neat/neat'
-import { neatBG } from './neat/ui'
+//import { neatBG } from './neat/ui'
 //import { NeatSystem } from 'neat/system'
 //import { neatBG } from 'neat/ui'
 //import { scene } from './scene'
@@ -129,9 +129,9 @@ const transform34 = new Transform({
 nftPictureFrame3.addComponentOrReplace(transform34)
 */
 const script1 = new Script1()
-const script2 = new Script2()
+//const script2 = new Script2()
 script1.init()
-script2.init()
+//script2.init()
 script1.spawn(
   squareSignpost,
   { text: 'MBTI \n성격테스트', fontSize: 20 },
@@ -208,7 +208,7 @@ beamExterior2.addComponentOrReplace(transform33)
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 neat.init(
-  true,
+  false,
   true,
   false,
   2,
