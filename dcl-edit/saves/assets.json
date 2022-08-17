@@ -319,6 +319,26 @@
             "name": "neat",
             "id": "eaf366fe-a988-4bc8-ad89-e2470af8138a",
             "gltfPath": "src/neat/models/neat.glb"
+        },
+        {
+            "name": "Screen Independent",
+            "id": "d8fb9e04-c384-4cdb-9395-b067ea020167",
+            "gltfPath": "6ef2baf2-3d2e-4093-b22b-34c2b6bb0e7b/models/Screen_Independent.glb"
+        },
+        {
+            "name": "twitter",
+            "id": "ac53fccf-ea72-41ca-bcc0-10980c351fee",
+            "gltfPath": "f89ab04f-46ef-42ea-912b-b194eb8d2f02/models/twitter.glb"
+        },
+        {
+            "name": "twitter bnw",
+            "id": "54e4a4e3-c49e-4722-b2c2-58b3e928feb7",
+            "gltfPath": "f89ab04f-46ef-42ea-912b-b194eb8d2f02/models/twitter_bnw.glb"
+        },
+        {
+            "name": "board",
+            "id": "0ddc79f7-f4b5-43b9-a000-000d09a88be1",
+            "gltfPath": "models2/board.glb"
         }
     ]
 }

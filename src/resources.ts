@@ -1,13 +1,12 @@
 export default {
   sounds: {
     alice: new AudioClip('sounds/alice.mp3'),
-    bela: new AudioClip('sounds/bela.mp3'),
     result: new AudioClip('sounds/result.mp3')
   },
   models: {
     robots: {
       alice: 'models2/robots/alice.glb',
-      rings: new GLTFShape('models/robots/rings.glb')
+      rings: new GLTFShape('models2/robots/rings.glb')
     }
   },
   textures: {

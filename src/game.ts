@@ -1,20 +1,17 @@
 import { NPC, NPCDelay } from '@dcl/npc-scene-utils'
-//import { AliceDialog } from './modules/dialogData'
 import { AliceDialog } from 'src/data'
 import resources from './resources'
 
 import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
-import Script1 from '../c1da72b5-fbda-4ba5-ad96-a921a3ef0d3b/src/item'
-//import Script2 from '../80d9cb1c-2fcf-4585-8e19-e2d5621fd54d/src/item'
+//import Script1 from '../c1da72b5-fbda-4ba5-ad96-a921a3ef0d3b/src/item'
 import { neat } from 'neat/neat'
-//import { neatBG } from './neat/ui'
-//import { NeatSystem } from 'neat/system'
-//import { neatBG } from 'neat/ui'
-//import { scene } from './scene'
+
+import Script2 from '../6ef2baf2-3d2e-4093-b22b-34c2b6bb0e7b/src/item'
+import Script3 from '../f89ab04f-46ef-42ea-912b-b194eb8d2f02/src/item'
 
 export const alice = new NPC(
   {
-    position: new Vector3(3, 1.6, 8.5),
+    position: new Vector3(10, 1.6, 6.5),
     rotation: Quaternion.Euler(0, 270, 0)
   },
   resources.models.robots.alice,
@@ -23,7 +20,7 @@ export const alice = new NPC(
 
     const dummyent = new Entity()
     dummyent.addComponent(
-      new NPCDelay(2, () => {
+      new NPCDelay(4, () => {
         alice.playAnimation('Talk')
       })
     )
@@ -79,136 +76,69 @@ source.loop = true
 source.playing = true
 engine.addEntity(streamSource)
 
+/*
 const squareSignpost = new Entity('squareSignpost')
 engine.addEntity(squareSignpost)
 
 //squareSignpost.setParent(scene)
 
 const transform = new Transform({
-  position: new Vector3(2, 0, 10.5),
+  position: new Vector3(9, 0, 8.5),
   rotation: new Quaternion(0, 0.2902846932411194, -3.4604628496026635e-8, 0.9569403529167175),
   scale: new Vector3(1.5313056707382202, 1.2, 0.5663504600524902)
 })
 squareSignpost.addComponentOrReplace(transform)
-
+*/
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 //const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
 //const options = { inventory }
 
+const imageScreen = new Entity('imageScreen')
+engine.addEntity(imageScreen)
+//imageScreen.setParent(_scene)
+const transform21 = new Transform({
+  position: new Vector3(3, 0, 14),
+  rotation: new Quaternion(0, 90, 0, 0),
+  scale: new Vector3(0.7, 0.7, 0.7)
+})
+imageScreen.addComponentOrReplace(transform21)
+
+const twitterButtonLink = new Entity('twitterButtonLink')
+engine.addEntity(twitterButtonLink)
+//twitterButtonLink.setParent(_scene)
+const transform22 = new Transform({
+  position: new Vector3(2, 0, 13),
+  rotation: new Quaternion(0, 0, 0, 0),
+  scale: new Vector3(2, 2, 2)
+})
+twitterButtonLink.addComponentOrReplace(transform22)
+
+//const script1 = new Script1() // squareSignpost
+const script2 = new Script2() // imageScreen
+const script3 = new Script3() // twitterButtonLink
+
+//script1.init()
+script2.init()
+script3.init()
+
 /*
-const nftPictureFrame = new Entity('nftPictureFrame')
-engine.addEntity(nftPictureFrame)
-//nftPictureFrame.setParent(scene)
-const transform30 = new Transform({
-  position: new Vector3(12.09399700164795, 1.6921573877334595, 11.662574768066406),
-  rotation: new Quaternion(-0.06048033386468887, -0.7621920704841614, -0.050982605665922165, 0.6424999833106995),
-  scale: new Vector3(3.703580379486084, 3.1973347663879395, 1.0034245252609253)
-})
-nftPictureFrame.addComponentOrReplace(transform30)
-
-
-const nftPictureFrame2 = new Entity('nftPictureFrame2')
-engine.addEntity(nftPictureFrame2)
-//nftPictureFrame2.setParent(scene)
-const transform31 = new Transform({
-  position: new Vector3(8, 0, 8),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-nftPictureFrame2.addComponentOrReplace(transform31)
-
-const nftPictureFrame3 = new Entity('nftPictureFrame3')
-engine.addEntity(nftPictureFrame3)
-//nftPictureFrame3.setParent(scene)
-const transform34 = new Transform({
-  position: new Vector3(12.473897933959961, 1.6921573877334595, 8.651859283447266),
-  rotation: new Quaternion(-0.06048033386468887, -0.7621920704841614, -0.050982605665922165, 0.6424999833106995),
-  scale: new Vector3(3.703580379486084, 3.1973347663879395, 1.0034245252609253)
-})
-nftPictureFrame3.addComponentOrReplace(transform34)
-*/
-const script1 = new Script1()
-//const script2 = new Script2()
-script1.init()
-//script2.init()
 script1.spawn(
   squareSignpost,
   { text: 'MBTI \n성격테스트', fontSize: 20 },
   createChannel(channelId, squareSignpost, channelBus)
 )
-/*
-script2.spawn(
-  nftPictureFrame,
-  {
-    id: '2094',
-    contract: '0xd532b88607b1877fe20c181cba2550e3bbd6b31c',
-    style: 'Canvas',
-    color: '#FFFFFF',
-    ui: true,
-    uiText: ''
-  },
-  createChannel(channelId, nftPictureFrame, channelBus)
-)
-
-script2.spawn(
-  nftPictureFrame2,
-  {
-    id: '558536',
-    contract: '0x06012c8cf97BEaD5deAe237070F9587f8E7A266d',
-    style: 'Classic',
-    color: '#FFFFFF',
-    ui: true,
-    uiText: ''
-  },
-  createChannel(channelId, nftPictureFrame2, channelBus)
-)
-
-
-script2.spawn(
-  nftPictureFrame3,
-  {
-    id: '6247',
-    contract: '0xdf3407636bbf3a015a8e48a079ef7ba49e687fd3',
-    style: 'Canvas',
-    color: '#FFFFFF',
-    ui: true,
-    uiText: ''
-  },
-  createChannel(channelId, nftPictureFrame3, channelBus)
-)
 */
-/*
-const beamExterior = new Entity('beamExterior')
-engine.addEntity(beamExterior)
-//beamExterior.setParentscene)
-const transform32 = new Transform({
-  position: new Vector3(11.889525413513184, 0.29577505588531494, 11.560519218444824),
-  rotation: new Quaternion(0.06990209221839905, 0.6354784965515137, -0.059609632939100266, 0.7666338682174683),
-  scale: new Vector3(0.43272560834884644, 0.369143009185791, 0.9533857107162476)
-})
-beamExterior.addComponentOrReplace(transform32)
-const gltfShape12 = new GLTFShape('models2/Beam Exterior 1.glb')
-gltfShape12.withCollisions = true
-gltfShape12.isPointerBlocker = true
-gltfShape12.visible = true
-beamExterior.addComponentOrReplace(gltfShape12)
-
-const beamExterior2 = new Entity('beamExterior2')
-engine.addEntity(beamExterior2)
-//beamExterior2.setParent(_scene)
-beamExterior2.addComponentOrReplace(gltfShape12)
-const transform33 = new Transform({
-  position: new Vector3(12.275545120239258, 0.29577505588531494, 8.549803733825684),
-  rotation: new Quaternion(0.06990209221839905, 0.6354784965515137, -0.059609632939100266, 0.7666338682174683),
-  scale: new Vector3(0.43272560834884644, 0.36914291977882385, 0.9533857107162476)
-})
-beamExterior2.addComponentOrReplace(transform33)
-*/
+script2.spawn(imageScreen, { image: 'images/result/ENFJ.png' }, createChannel(channelId, imageScreen, channelBus))
+script3.spawn(
+  twitterButtonLink,
+  { url: 'https://twitter.com/BlueDragonTree', bnw: false, name: 'BlueDragonTree' },
+  createChannel(channelId, twitterButtonLink, channelBus)
+)
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 neat.init(
-  false,
+  true,
   true,
   false,
   2,
