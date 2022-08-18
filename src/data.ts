@@ -356,7 +356,7 @@ export const AliceDialog: Dialog[] = [
   },
   {
     name: 'q9',
-    text: 'Q9.당신은 파티에서   <br>A:낯선 사람을 포함하여 많은 사람들과 교류하는 편<br>B:아는 몇 사람과 교류하는 편',
+    text: 'Q9.당신은 파티에서  <br>A:낯선 사람들과도 잘 교류하는 편<br>B:아는 몇 사람과 교류하는 편',
     isQuestion: true,
     image: {
       path: 'images/dialog_right/9.png',

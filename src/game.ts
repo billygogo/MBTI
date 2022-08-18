@@ -108,7 +108,7 @@ const twitterButtonLink = new Entity('twitterButtonLink')
 engine.addEntity(twitterButtonLink)
 //twitterButtonLink.setParent(_scene)
 const transform22 = new Transform({
-  position: new Vector3(2, 0, 13),
+  position: new Vector3(5, 0, 13),
   rotation: new Quaternion(0, 0, 0, 0),
   scale: new Vector3(2, 2, 2)
 })
@@ -129,7 +129,7 @@ script1.spawn(
   createChannel(channelId, squareSignpost, channelBus)
 )
 */
-script2.spawn(imageScreen, { image: 'images/result/ENFJ.png' }, createChannel(channelId, imageScreen, channelBus))
+script2.spawn(imageScreen, { image: 'images/poster.png' }, createChannel(channelId, imageScreen, channelBus))
 script3.spawn(
   twitterButtonLink,
   { url: 'https://twitter.com/BlueDragonTree', bnw: false, name: 'BlueDragonTree' },
@@ -138,7 +138,7 @@ script3.spawn(
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 neat.init(
-  true,
+  false,
   true,
   false,
   2,
